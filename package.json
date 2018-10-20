@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack plugin that adds IIFE wrapper for each ES6 module",
   "main": "index.js",
   "scripts": {
