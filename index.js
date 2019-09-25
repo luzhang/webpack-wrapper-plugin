@@ -4,7 +4,7 @@ class ExportParserPlugin {
   constructor() {}
   apply(parser) {
       parser.plugin('export', () => {
-        parser.state.current.addVariable('', '', []);
+        parser.state.current.addVariable('__webpack_wrapper_plugin__', 'true', []);
       });
   }
 }
